@@ -1,11 +1,12 @@
 // DJ Bust A Nut website. Replace the placeholder values with your Firebase web app config.
 const firebaseConfig = {
-  apiKey: "PASTE_YOUR_FIREBASE_API_KEY",
-  authDomain: "PASTE_YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "PASTE_YOUR_PROJECT_ID",
-  storageBucket: "PASTE_YOUR_STORAGE_BUCKET",
-  messagingSenderId: "PASTE_YOUR_MESSAGING_SENDER_ID",
-  appId: "PASTE_YOUR_APP_ID"
+  apiKey: "AIzaSyBraZNzN5N_mVx1Hp9ck-meMfZ2YILXmak",
+  authDomain: "dj-bust-a-nut.firebaseapp.com",
+  projectId: "dj-bust-a-nut",
+  storageBucket: "dj-bust-a-nut.firebasestorage.app",
+  messagingSenderId: "797753054106",
+  appId: "1:797753054106:web:6fcea0be30f64ffb076023",
+  measurementId: "G-GG01YQZ0FN"
 };
 const firebaseConfigured = !firebaseConfig.apiKey.startsWith("PASTE_");
 const $ = id => document.getElementById(id);
